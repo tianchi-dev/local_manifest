@@ -13,7 +13,7 @@
   <project path="kernel/sony/msm8226" name="android_kernel_sony_msm8226" remote="tianchi" revision="cm-11.0" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="tianchi" />
-  <project path="vendor/sony" name="CMX-2014/android_vendor_sony" remote="github" revision="cm-11.0" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="tianchi" revision="cm-11.0" />
 
 </manifest>
 

@@ -6,6 +6,15 @@
 	  revision="cm-11.0"
           fetch="git://github.com/tianchi-dev/" />
 
+  <remote name="git"
+	  fetch="git://github.com/" />
+
+  <!--Un-needed large 2GB project-->
+  <remove-project name="CyanogenMod/android_prebuilt" />
+  
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="git" revision="android-4.4" />
+
   <!--Device stuff-->
   <project path="device/sony/tianchi" name="android_device_sony_tianchi" remote="tianchi" />
   <project path="device/sony/msm8226-common" name="android_device_sony_msm8226-common" remote="tianchi" />

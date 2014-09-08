@@ -21,7 +21,9 @@
   <project path="kernel/sony/msm8226" name="kernel" remote="tianchi" revision="19.1.C.0.xxx" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
   <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" />
-  <project path="vendor/sony" name="android_vendor_sony" revision="cabbage" />
+  <project path="vendor/sony" name="abcdjdj/android_vendor_sony" revision="cabbage" remote="git" />
+
+  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" revision="cm-11.0" remote="git" />
 
 </manifest>
 

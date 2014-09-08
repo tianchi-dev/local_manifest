@@ -16,13 +16,12 @@
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="git" revision="android-4.4" />
 
   <!--Device stuff-->
-  <project path="device/sony/tianchi" name="android_device_sony_tianchi" remote="tianchi" />
-  <project path="device/sony/msm8226-common" name="android_device_sony_msm8226-common" remote="tianchi" />
+  <project path="device/sony/tianchi" name="Abhinav1997/cabbage-souffle" revision="master" />
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-11.0" />
-  <project path="kernel/sony/msm8226" name="android_kernel_sony_msm8226" remote="tianchi" revision="cm-11.0" />
+  <project path="kernel/sony/msm8226" name="kernel" remote="tianchi" revision="19.1.C.0.xxx" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
-  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="tianchi" />
-  <project path="vendor/sony" name="proprietary_vendor_sony" remote="tianchi" revision="cm-11.0" />
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" />
+  <project path="vendor/sony" name="android_vendor_sony" revision="cabbage" />
 
 </manifest>
 
